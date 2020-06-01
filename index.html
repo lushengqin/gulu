@@ -47,7 +47,11 @@
     <g-button icon="shezhi" icon-position="right" :loading="loading3" @click="loading3 = !loading3">
         按钮
     </g-button>
-<!--    <g-icon name="xiazai"></g-icon>-->
+    <g-button-group>
+        <g-button icon="left" :loading="loading2" @click="loading2 = !loading2">上一页</g-button>
+        <g-button :loading="loading1" @click="loading1 = !loading1"  >更多</g-button>
+        <g-button icon="right" icon-position="right" :loading="loading3" @click="loading3 = !loading3">下一页</g-button>
+    </g-button-group>
 </div>
 <script src="./src/app.js"></script>
 <script src="//at.alicdn.com/t/font_1854959_5jj2kmmzqla.js"></script>

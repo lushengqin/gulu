@@ -85,6 +85,8 @@
         .loading {
             animation: iLoading 3s infinite linear;
         }
+
+
     }
 
 </style>
