@@ -38,17 +38,16 @@
 </head>
 <body>
 <div id="app">
-    <br>
-    <g-button >
+    <g-button :loading="loading1" @click="loading1 = !loading1" >
         按钮
     </g-button>
-    <g-button icon="shezhi">
+    <g-button icon="shezhi" :loading="loading2" @click="loading2 = !loading2">
         按钮
     </g-button>
-    <g-button icon="shezhi" icon-position="right">
+    <g-button icon="shezhi" icon-position="right" :loading="loading3" @click="loading3 = !loading3">
         按钮
     </g-button>
-    <g-icon name="xiazai"></g-icon>
+<!--    <g-icon name="xiazai"></g-icon>-->
 </div>
 <script src="./src/app.js"></script>
 <script src="//at.alicdn.com/t/font_1854959_5jj2kmmzqla.js"></script>
